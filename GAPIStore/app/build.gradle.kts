@@ -59,4 +59,5 @@ dependencies {
     implementation("com.google.auth:google-auth-library-oauth2-http:1.20.0")
     implementation("com.squareup.picasso:picasso:2.8")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 }
