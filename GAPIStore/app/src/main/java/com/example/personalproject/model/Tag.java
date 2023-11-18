@@ -1,5 +1,5 @@
 
-package com.example.personalproject.core.model;
+package com.example.personalproject.model;
 
 public class Tag {
 

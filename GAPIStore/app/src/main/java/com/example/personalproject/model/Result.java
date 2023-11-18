@@ -1,5 +1,5 @@
 
-package com.example.personalproject.core.model;
+package com.example.personalproject.model;
 
 import java.util.List;
 
@@ -10,14 +10,14 @@ public class Result {
     private String name;
     private String released;
     private Boolean tba;
-    private String backgroundImage;
+    private String background_image;
     private Double rating;
     private Integer ratingTop;
     private List<Rating> ratings;
-    private Integer ratingsCount;
-    private Integer reviewsTextCount;
+    private Integer ratings_count;
+    private Integer reviews_text_count;
     private Integer added;
-    private AddedByStatus addedByStatus;
+    private AddedByStatus added_by_status;
     private Integer metacritic;
     private Integer playtime;
     private Integer suggestionsCount;
@@ -76,11 +76,11 @@ public class Result {
     }
 
     public String getBackgroundImage() {
-        return backgroundImage;
+        return background_image;
     }
 
     public void setBackgroundImage(String backgroundImage) {
-        this.backgroundImage = backgroundImage;
+        this.background_image = backgroundImage;
     }
 
     public Double getRating() {
@@ -108,19 +108,19 @@ public class Result {
     }
 
     public Integer getRatingsCount() {
-        return ratingsCount;
+        return ratings_count;
     }
 
     public void setRatingsCount(Integer ratingsCount) {
-        this.ratingsCount = ratingsCount;
+        this.ratings_count = ratingsCount;
     }
 
     public Integer getReviewsTextCount() {
-        return reviewsTextCount;
+        return reviews_text_count;
     }
 
     public void setReviewsTextCount(Integer reviewsTextCount) {
-        this.reviewsTextCount = reviewsTextCount;
+        this.reviews_text_count = reviewsTextCount;
     }
 
     public Integer getAdded() {
@@ -132,11 +132,11 @@ public class Result {
     }
 
     public AddedByStatus getAddedByStatus() {
-        return addedByStatus;
+        return added_by_status;
     }
 
     public void setAddedByStatus(AddedByStatus addedByStatus) {
-        this.addedByStatus = addedByStatus;
+        this.added_by_status = addedByStatus;
     }
 
     public Integer getMetacritic() {

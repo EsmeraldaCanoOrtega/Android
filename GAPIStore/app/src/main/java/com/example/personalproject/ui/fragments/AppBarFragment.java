@@ -1,4 +1,4 @@
-package com.example.personalproject.core.fragments;
+package com.example.personalproject.ui.fragments;
 
 
 import android.content.Intent;
@@ -21,7 +21,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 import com.example.personalproject.R;
-import com.example.personalproject.core.activities.ActivityLogin;
+import com.example.personalproject.ui.activities.ActivityLogin;
 import com.example.personalproject.utils.Rounded;
 import com.firebase.ui.auth.AuthUI;
 import com.squareup.picasso.Picasso;
@@ -63,7 +63,7 @@ public class AppBarFragment extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == R.id.app_bar_optionsButton) {
+        if (item.getItemId() == R.id.app_bar_filterButton) {
             Toast.makeText(this.requireContext(), "In development", Toast.LENGTH_SHORT).show();
         }
         if (item.getItemId() == R.id.app_bar_logoutButton) {

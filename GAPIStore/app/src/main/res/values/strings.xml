@@ -3,7 +3,7 @@
     <string name="app_name">PersonalProject</string>
     <string name="login">LogIn</string>
     <string name="logout">LogOut</string>
-    <string name="settings_title">Settings</string>
+    <string name="filter_title">Filters</string>
     <string name="name">Your name here</string>
     <string name="password">Your password here</string>
     <string name="login_incorrect_message">Incorrect Username or Password</string>
@@ -12,4 +12,7 @@
     <string name="empty_text">" "</string>
     <string name="favorites">Favorites</string>
     <string name="explore">Explore</string>
+    <string name="update">Update</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
 </resources>

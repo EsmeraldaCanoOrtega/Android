@@ -1,4 +1,4 @@
-package com.example.personalproject.core.activities;
+package com.example.personalproject.ui.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
