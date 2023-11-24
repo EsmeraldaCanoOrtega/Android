@@ -10,8 +10,6 @@ import retrofit2.http.Query;
 import retrofit2.http.QueryMap;
 
 public interface GameAPI {
-
-
     @GET("games")
     Call<GameListResponse> listGames(@QueryMap Map<String, Object> params);
 }

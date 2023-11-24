@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_label">JAPI</string>
+    <string name="app_name">PersonalProject</string>
+    <string name="login">Inicia sesión</string>
+    <string name="logout">cierra sesión</string>
+    <string name="filter_title">filtros</string>
+    <string name="name">Tu nombre aquí</string>
+    <string name="password">Tu contraseña aquí</string>
+    <string name="login_incorrect_message">Incorrecto nombre de usuario o contraseña</string>
+    <string name="user_profile_image">imagen perfil de usuario</string>
+    <string name="user_name_hint">Introduce tu nombre</string>
+    <string name="empty_text">" "</string>
+    <string name="favorites">Favoritos</string>
+    <string name="explore">Explorar</string>
+    <string name="update">Actualizar</string>
+    <string name="next">siguiente</string>
+    <string name="previous">anterior</string>
+</resources>
